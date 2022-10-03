@@ -21,6 +21,7 @@ class MobileTableViewCell: UITableViewCell {
     
     private let modelLabel: UILabel = {
         let label = UILabel()
+        label.font = .boldSystemFont(ofSize: 18)
         label.adjustsFontSizeToFitWidth = true
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
